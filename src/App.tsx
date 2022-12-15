@@ -9,6 +9,7 @@ import {ButtonSubscribe} from "./button_task_03/ButtonSubscribe";
 import {Button} from "./button_task_03/Button";
 import {ButtonUseState} from "./useState_task_04/ButtonUseState";
 import {Filter} from "./Filter_task_05/Filter";
+import {Messages} from "./input_task_06/messages";
 
 const App = () => {
 
@@ -38,7 +39,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <h1>Task 01</h1>
+{/*            <h1>Task 01</h1>
             <Header titleHeader = {'Header'}/>
             <Body titleBody = {'Body'}/>
             <Footer titleFooter = {'Footer'}/>
@@ -52,7 +53,9 @@ const App = () => {
             <h1>Task 04</h1>
             <ButtonUseState/>
             <h1>Task 05</h1>
-            <Filter/>
+            <Filter/>*/}
+            <h1>Task 06</h1>
+            <Messages/>
         </div>
     );
 }
